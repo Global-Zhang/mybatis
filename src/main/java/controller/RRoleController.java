@@ -30,7 +30,13 @@ public class RRoleController {
     @RequestMapping("selectOne")
     public String selectOne(Integer id) {
         System.out.println("adfdvsavdavd");
+        System.out.println("sdsdds");
         return "success"+id;
+    }
+
+    @RequestMapping("git")
+    public String select(){
+        return "success";
     }
 
 }
