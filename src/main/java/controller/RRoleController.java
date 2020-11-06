@@ -36,6 +36,7 @@ public class RRoleController {
 
     @RequestMapping("git")
     public String select(){
+        System.out.println("dssddssdsd");
         return "success";
     }
 
